@@ -1,12 +1,48 @@
 if getgenv().Script == "V1" then
+  game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Lilnhan Hub",
+	Text = "Executed",
+	Icon = "rbxthumb://type=Asset&id=133276261062383&w=150&h=150",
+	Duration = 10
+  });
+  wait(1)
+  repeat wait() until game:IsLoaded()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/NewBetaLua/Lilnhan/refs/heads/main/LilnhanHubV1"))()
 elseif getgenv().Script == "V2" then
+  game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Lilnhan Hub",
+	Text = "Executed",
+	Icon = "rbxthumb://type=Asset&id=133276261062383&w=150&h=150",
+	Duration = 10
+  });
+  repeat wait() until game:IsLoaded()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/NewBetaLua/Lilnhan/refs/heads/main/LilnhanHubV2"))()
 elseif getgenv().Script == "V3" then
+  game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Lilnhan Hub",
+	Text = "Executed",
+	Icon = "rbxthumb://type=Asset&id=133276261062383&w=150&h=150",
+	Duration = 10
+  });
+  repeat wait() until game:IsLoaded()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/NewBetaLua/Lilnhan/refs/heads/main/LilnhanHubV3"))()
 elseif getgenv().Script == "Fisch" then
+  game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Lilnhan Hub",
+	Text = "Executed",
+	Icon = "rbxthumb://type=Asset&id=133276261062383&w=150&h=150",
+	Duration = 10
+  });
+  repeat wait() until game:IsLoaded()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/NewBetaLua/Lilnhan/refs/heads/main/Fisch"))()
 elseif getgenv().Script == "Chest" then
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Lilnhan Hub",
+	Text = "Executed",
+	Icon = "rbxthumb://type=Asset&id=133276261062383&w=150&h=150",
+	Duration = 10
+  });
+repeat wait() until game:IsLoaded()
 getgenv().TweenSpeed = 350 --Tween Speed 150-350
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NewBetaLua/Lilnhan/refs/heads/main/AutoChest"))()
 else
@@ -26,5 +62,3 @@ else
   setclipboard("https://discord.gg/z9yhUBrBcu")
 end
 repeat wait() until game:IsLoaded()
-
-wait()
